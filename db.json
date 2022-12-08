@@ -1,0 +1,25 @@
+{
+  "transaction": [
+    {
+      "text": "Test 1",
+      "amount": 100,
+      "date": "2022-12-08",
+      "category": "Transportation",
+      "id": 1
+    },
+    {
+      "text": "Test 2",
+      "amount": 200,
+      "date": "2022-12-08",
+      "category": "Service",
+      "id": 2
+    },
+    {
+      "text": "Test 3",
+      "amount": -90,
+      "date": "2022-12-08",
+      "category": "Clothing/Fashion",
+      "id": 3
+    }
+  ]
+}
