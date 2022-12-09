@@ -20,6 +20,20 @@
       "date": "2022-12-08",
       "category": "Clothing/Fashion",
       "id": 3
+    },
+    {
+      "text": "csdGVdf",
+      "amount": 34,
+      "date": "2022-12-09",
+      "category": "Service",
+      "id": 4
+    },
+    {
+      "text": "rgtgth",
+      "amount": 544,
+      "date": "2022-12-08",
+      "category": "Other",
+      "id": 5
     }
   ]
 }

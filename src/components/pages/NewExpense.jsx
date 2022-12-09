@@ -36,6 +36,7 @@ function NewExpense() {
           <label>Text</label>
           <input
             type="text"
+            value={text}
             onChange={(e) => setText(e.target.value)}
             className="form-control"
             placeholder="Enter what you paid or been paid for.."
@@ -43,6 +44,8 @@ function NewExpense() {
           <label>Amount</label>
           <input
             type="number"
+            value={amount}
+            pattern="^-?[0-9]\d*\.?\d*$"
             onChange={(e) => setAmount(e.target.value)}
             className="form-control"
             placeholder="Enter Amount (US dollars)"
@@ -50,6 +53,7 @@ function NewExpense() {
           <label className="sr-only">Date</label>
           <input
             type="date"
+            value={date}
             onChange={(e) => setDate(e.target.value)}
             className="form-control mb-4 mr-sm-2"
             placeholder="Enter today's Date"
